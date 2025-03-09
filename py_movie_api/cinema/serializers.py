@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import CinemaHall
+from .models import Movie
 
 
-class CinemaHallSerializer(serializers.ModelSerializer):
+class MovieSerializer(serializers.ModelSerializer):
     class Meta:
-        model = CinemaHall
-        fields = '__all__'
+        model = Movie
+        fields = "__all__"
